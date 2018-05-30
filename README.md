@@ -15,7 +15,7 @@ Requirements
 
 This board was made in Eagle, so it's a requirement to do anything with the source files. As for hardware, for one board, one needs:
 * 8x WS2811 IC's, DIP8 format
-* 10x 2.54 mm groups of 4 pins. Note that Aura Sync uses round pins instead of square ones, so it's up to the user to figure out how to connect their components.
+* 10x 2.54 mm groups of 4 round pins.
 * 9x 33 ohm resistors (R1 - R9) used to prevent reflection and hot-swap.
 * 8x 100 nF capacitors used as bypass.
 * Every connected component requires an additional resistor (RR0 - RR7). These are dependent on the component which is hooked up to it. The value of this resistor is described in the WS2811 datasheet, page 5.
