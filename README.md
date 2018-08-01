@@ -12,6 +12,7 @@ Include the `WS2811.lbr` library as a library in Eagle. This is the DIP8 version
 Requirements
 ---
 ![Board](images/Board.png)
+
 This board was made in Eagle, so it's a requirement to do anything with the source files. As for hardware, for one board, one needs:
 * 8x WS2811 IC's, DIP8 format
 * 10x 2.54 mm groups of 4 round pins.
@@ -22,7 +23,7 @@ This board was made in Eagle, so it's a requirement to do anything with the sour
 
 Usage
 ---
-!Connecting(images/Connecting.png)
+![Connecting](images/Connecting.png)
 
 After everything is soldered, the 8 ports can be used to connect Aura Sync headers. The DATA_IN pins are to be connected to the motherboard's addressable LED pins and The molex goes to the PSU.
 
