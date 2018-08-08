@@ -15,7 +15,7 @@ Requirements
 
 This board was made in Eagle, so it's a requirement to do anything with the source files. As for hardware, for one board, one needs:
 * 8x WS2811 IC's, DIP8 format
-* 10x 2.54 mm groups of 4 round pins.
+* 9x 2.54 mm groups of 4 round pins.
 * 9x 33 Ω resistors (R1 - R9) used to prevent reflection and hot-swap.
 * 8x 100 nF capacitors used as bypass.
 * Every connected component requires an additional resistor (RR0 - RR7). A 330 Ω  resistor should do, but these can be calculated as described in the included WS2811 datasheet, page 5.
